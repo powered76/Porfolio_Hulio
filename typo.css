@@ -1,0 +1,119 @@
+/* TYPOGRAPHY */
+
+h1, .h1 {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    letter-spacing: -.5px;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+}
+
+h2, .h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+h3, .h3 {
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    letter-spacing: .25px;
+    margin-bottom: .75rem;
+}
+
+h4, .h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: .5rem;
+}
+
+h5, .h5 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+    letter-spacing: .15px;
+}
+
+.subtitle-1 {
+    letter-spacing: .15px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: .5rem;
+}
+
+.subtitle-2 {
+    letter-spacing: .1px;
+    font-size: .825rem;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+h2, h3, h5, .subtitle-1, .subtitle-2, .btn {
+    font-weight: 500;
+}
+
+.body-1 {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin-bottom: .5rem;
+    letter-spacing: .44px;
+}
+
+.body-2 {
+    font-size: .825rem;
+    line-height: 1.25rem;
+    margin-bottom: .5rem;
+    letter-spacing: .25px;
+}
+
+.btn {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+}
+
+.caption {
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+    letter-spacing: .4px;
+}
+
+.overline {
+    font-size: .625rem;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+    letter-spacing: 1.5px;
+}
+
+.badge {
+    font-size: .5rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width:768px) {
+    h1, .h1 {
+        font-size: 2.125rem;
+        line-height: 2.5rem;
+        letter-spacing: .25px;
+        margin-bottom: .75rem;
+    }
+    h2, .h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: .5rem;
+    }
+    h3, .h3 {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-bottom: .5rem;
+        letter-spacing: .15px;
+    }
+    h5, .h5 {
+        letter-spacing: .15px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: .5rem;
+    }
+}
